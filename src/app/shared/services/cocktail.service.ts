@@ -28,5 +28,9 @@ export class CocktailService {
     }
   ]);
 
+  public selectedCocktail: BehaviorSubject<Cocktail> = new BehaviorSubject(
+    this.cocktails.value[0]
+  );
+
   constructor() {}
 }
