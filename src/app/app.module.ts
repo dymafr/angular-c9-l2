@@ -17,6 +17,7 @@ import { CocktailContainerComponent } from "./cocktail-container/cocktail-contai
     CocktailDetailsComponent,
     CocktailContainerComponent
   ],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
+  providers: []
 })
 export class AppModule {}
